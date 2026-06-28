@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://d123456789abcdef"]
+
+[ext_resource type="Script" path="res://src/player/player.gd"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("res://src/player/player.gd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AttackTimer" type="Timer" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+enabled = true
+zoom = 2.0
