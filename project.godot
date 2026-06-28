@@ -1,0 +1,33 @@
+[application]
+
+config/name="Tibia RPG Mobile"
+config/version="0.1.0"
+config/description="RPG vertical com mapa infinito baseado em Tibia"
+run/main_scene="res://scenes/main.tscn"
+
+[physics]
+
+physics/2d/default_gravity=0
+
+[input]
+
+ui_left={
+"deadzone": 0.5,
+"events": [Key( keycode=4194319 ), JoypadButton( device=-1, button=14 )]
+}
+ui_right={
+"deadzone": 0.5,
+"events": [Key( keycode=4194321 ), JoypadButton( device=-1, button=15 )]
+}
+ui_up={
+"deadzone": 0.5,
+"events": [Key( keycode=4194320 ), JoypadButton( device=-1, button=12 )]
+}
+ui_down={
+"deadzone": 0.5,
+"events": [Key( keycode=4194322 ), JoypadButton( device=-1, button=13 )]
+}
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
