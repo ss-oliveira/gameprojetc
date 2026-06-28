@@ -64,6 +64,4 @@ offset_left = 10.0
 offset_top = 10.0
 offset_right = -10.0
 offset_bottom = -10.0
-text = "ATK: 15
-DEF: 5
-EXP: 0"
+text = "ATK: 15\nDEF: 5\nEXP: 0"
